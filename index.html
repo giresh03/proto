@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giresh kumar portfilo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+           padding: 12px;
+           background: #1e2167;
+           color: white;
+           border: 2px solid white;
+           border-radius: 6px;
+           font-size: 20px;
+           cursor: pointer;
+
+        }
+        .leftsection .btn:hover{
+            color: rgb(153, 153, 226);
+        }
+
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: #0e0e1a;
+           
+        }
+        .footer{
+            display: flex;
+           padding: 23px 122px;
+           justify-content: space-evenly;
+        }
+        footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+             
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Giresh's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi My name is <span class="purple">Giresh</span>
+                <div>and I am a passionate</div>
+                <div>Fullstack developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <a href="https://github.com/giresh03">
+                    <button class="btn">Visit Github</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experiance</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="bg2.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        HTML developers typically work closely with CSS (Cascading Style Sheets) and JavaScript to
+                        create visually appealing and interactive web pages. CSS is used to style the HTML elements,
+                        controlling things like colors, fonts, layout, and spacing, while JavaScript adds interactivity
+                        and dynamic behavior to web pages.
+                    </div>
+                </div>
+                
+                <div class="vertical">
+                    <img class="image-top" src="bg2.png.png" alt="">
+                    <div class="vertical-title">
+                        Android Developer (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Android developer involves creating applications for devices running the Android operating system. Here are some key points about Android development,Android apps are primarily built using Java and Kotlin programming languages. Kotlin has gained popularity in recent years due to its concise syntax and interoperability with Java.
+                    </div>
+                </div>
+               
+                <div class="vertical">
+                    <img class="image-top" src="bg2.png.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Web developers primarily work with languages like HTML, CSS, and JavaScript. HTML (Hypertext Markup Language) provides the structure of web pages, CSS (Cascading Style Sheets) handles the presentation and layout, and JavaScript adds interactivity and dynamic behavior to websites. Additionally, developers often use frameworks and libraries such as React, Angular, or Vue.js for building interactive user interfaces, as well as server-side languages like PHP, Python, Ruby, or Node.js for backend development.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="bg2.png.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        A Python developer is a programmer who specializes in using the Python programming language to create software applications, websites, or other solutions. Python is known for its simplicity and readability, making it a popular choice for both beginners and experienced developers alike.
+
+                        Python developers may work on a wide range of projects, including web development, data analysis, machine learning, artificial intelligence, scientific computing, and more. They typically use various Python libraries and frameworks, such as Django, Flask, NumPy, pandas, TensorFlow, and scikit-learn
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="bg2.png.png" alt="">
+                    <div class="vertical-title">
+                        Ai Developer (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        An AI developer, short for Artificial Intelligence developer, is a professional who specializes in creating artificial intelligence (AI) solutions and systems. AI developers use a combination of programming, machine learning, and data science techniques to design, develop, and deploy intelligent systems that can perform tasks that normally require human intelligence, Proficiency in programming languages such as Python, Java, or C++ is essential for AI development. Python is particularly popular due to its extensive libraries and frameworks for AI and data science
+                    </div>
+                </div>
+                
+                <div class="vertical">
+                    <img class="image-top" src="bg2.png.png" alt="">
+                    <div class="vertical-title">
+                        Ios Developer (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        An iOS developer is a software developer who specializes in creating applications for Apple's iOS operating system, which powers iPhones, iPads, and other Apple devices. iOS developers typically use Apple's programming language, Swift, along with Objective-C, to build apps for the iOS platform.
+                    </div>
+                </div>
+                
+               
+
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Giresh's Deveoper Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                    
+                </ul>
+
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                    
+                </ul>
+
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                    
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright&#169gireshportfolio.com | All rights reserved
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Fullstack Developer', 'Graphic Designer', 'Web Designer', 'Android Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
